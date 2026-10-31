@@ -1,0 +1,31 @@
+<!--
+  +----------------------------------------------------------------+
+  |                                                                |
+  |     __  __    ___    _____                                     |
+  |    |  \/  |  / _ \  |  ___|                                    |
+  |    | |\/| | | | | | | |_                                       |
+  |    | |  | | | |_| | |  _|                                      |
+  |    |_|  |_|  \__\_\ |_|                                        |
+  |                                                                |
+  |    M I X   Q U E U E   F I X                                   |
+  |    ~~~~~~~~~~~~~~~~~~~~~~~~~                                   |
+  |                                                                |
+  |    [ SYS: MQF-01 ]       [ MODE: QUEUE RESTORE ]               |
+  |    [ EST: 2026  ]       [ SIGNAL: ACTIVE     ]                 |
+  |                                                                |
+  |    "The queue was never gone. Just hidden."                    |
+  |                                                                |
+  +----------------------------------------------------------------+
+   FILE    : assets/logo-vector.svg
+   MODULE  : VECTOR BRAND ASSET
+   VERSION : 1.1.0
+   LICENSE : MIT
+   -----------------------------------------------------------------
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Mix Queue Fix logo">
+<rect x="6" y="6" width="116" height="116" rx="30" fill="#21447e" stroke="#0d2860" stroke-width="2"/>
+<path d="M47 44h48 M47 65h44 M47 84h32" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+<circle cx="32" cy="64" r="15" fill="#47e2bb"/>
+<path d="M27 55.5 40 64 27 72.5Z" fill="#123765" />
+</svg>

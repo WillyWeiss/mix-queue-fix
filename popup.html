@@ -1,0 +1,81 @@
+<!doctype html>
+<!--
+  +----------------------------------------------------------------+
+  |                                                                |
+  |     __  __    ___    _____                                     |
+  |    |  \/  |  / _ \  |  ___|                                    |
+  |    | |\/| | | | | | | |_                                       |
+  |    | |  | | | |_| | |  _|                                      |
+  |    |_|  |_|  \__\_\ |_|                                        |
+  |                                                                |
+  |    M I X   Q U E U E   F I X                                   |
+  |    ~~~~~~~~~~~~~~~~~~~~~~~~~                                   |
+  |                                                                |
+  |    [ SYS: MQF-01 ]       [ MODE: QUEUE RESTORE ]               |
+  |    [ EST: 2026  ]       [ SIGNAL: ACTIVE     ]                 |
+  |                                                                |
+  |    "The queue was never gone. Just hidden."                    |
+  |                                                                |
+  +----------------------------------------------------------------+
+   FILE    : popup.html
+   MODULE  : EXTENSION POPUP MARKUP
+   VERSION : 1.1.0
+   LICENSE : MIT
+   -----------------------------------------------------------------
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mix Queue Fix</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main class="popup">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-icon"><img src="icon48.png" alt="" width="44" height="44"></div>
+        <div class="brand-copy">
+          <p class="brand-eyebrow">FOR YOUTUBE™</p>
+          <h1>Mix Queue Fix</h1>
+        </div>
+      </div>
+      <p class="description">Your mix. Your queue.<br>Back where it belongs.</p>
+    </header>
+
+    <section class="control" aria-labelledby="feature-title">
+      <div class="control-copy">
+        <div class="control-heading">
+          <span class="control-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="19" height="19"><path d="M8 6h13M8 12h13M8 18h13"/><path d="m2.8 4.8 3.4 2.2-3.4 2.2z" fill="currentColor" stroke="none"/></svg>
+          </span>
+          <h2 id="feature-title">Auto-restore queue</h2>
+        </div>
+        <p>Show upcoming tracks in YouTube Mixes.</p>
+      </div>
+      <label class="switch" title="Enable or disable Mix Queue Fix">
+        <input id="enabled-switch" type="checkbox" role="switch" aria-label="Enable Mix Queue Fix" checked disabled />
+        <span class="track"><span class="thumb"></span></span>
+      </label>
+    </section>
+
+    <div class="status" aria-live="polite">
+      <span id="status-dot" class="status-dot"></span>
+      <div class="status-copy">
+        <strong id="status-title">Loading settings…</strong>
+        <span id="status-detail">Checking your preference</span>
+      </div>
+      <span id="status-label" class="status-label">—</span>
+    </div>
+
+    <footer class="footer">
+      <span class="privacy">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+        No tracking. No accounts.
+      </span>
+      <span class="version">v1.1.0</span>
+    </footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Mix Queue Fix for YouTube™",
+  "short_name": "Mix Queue Fix",
+  "version": "1.1.0",
+  "description": "Restores the hidden upcoming songs queue on YouTube Mix pages, with a simple on/off control.",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_title": "Mix Queue Fix",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+    }
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*", "https://youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
